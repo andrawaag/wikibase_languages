@@ -25,8 +25,8 @@ ${DOLLAR}wgDebugLogGroups = [
 
 ## Site Settings
 # TODO pass in the rest of this with env vars?
-${DOLLAR}wgShellLocale = "jp_JP.utf8";
-${DOLLAR}wgLanguageCode = "${MW_SITE_LANG}";
+${DOLLAR}wgShellLocale = "ja_JA.utf8";
+${DOLLAR}wgLanguageCode = "ja";
 ${DOLLAR}wgSitename = "${MW_SITE_NAME}";
 ${DOLLAR}wgMetaNamespace = "Project";
 # Configured web paths & short URLs
@@ -44,7 +44,7 @@ ${DOLLAR}wgSecretKey = "${MW_WG_SECRET_KEY}";
 # The query service (by default) loads data from recent changes
 # Set this to 1 year to avoid any changes being removed from the RC table over a shorter period of time.
 ${DOLLAR}wgRCMaxAge = 365 * 24 * 3600;
-${DOLLAR}wgLogo = 'https://upload.wikimedia.org/wikipedia/commons/7/7d/Wikibase_logo_Japanese.png';
+${DOLLAR}wgLogo = 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Wikibase_logo_Japanese.png/200px-Wikibase_logo_Japanese.png';
 
 wfLoadSkin( 'Vector' );
 
