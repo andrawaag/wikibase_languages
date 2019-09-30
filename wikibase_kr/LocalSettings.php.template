@@ -25,7 +25,7 @@ ${DOLLAR}wgDebugLogGroups = [
 
 ## Site Settings
 # TODO pass in the rest of this with env vars?
-${DOLLAR}wgShellLocale = "ko_KR.utf8";
+${DOLLAR}wgShellLocale = "ko_KO.utf8";
 ${DOLLAR}wgLanguageCode = "ko";
 ${DOLLAR}wgSitename = "${MW_SITE_NAME}";
 ${DOLLAR}wgMetaNamespace = "Project";
