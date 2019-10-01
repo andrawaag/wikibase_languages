@@ -19,10 +19,10 @@ This is an arbitrary choice, and be left untouched or another number can be give
 ```
 
 ## Edit LocalSettting.php.template
-### Change the language code to "ml"
+### Change the language code to "ta"
 ```
-${DOLLAR}wgShellLocale = "ml_IN.utf8";
-${DOLLAR}wgLanguageCode = "ml";
+${DOLLAR}wgShellLocale = "ta_IN.utf8";
+${DOLLAR}wgLanguageCode = "ta";
 ```
 
 ### Add the location of the Malayalam Wikibase logo (To be designed)
