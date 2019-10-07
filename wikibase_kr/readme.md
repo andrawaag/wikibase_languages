@@ -11,9 +11,9 @@ For Wikibase to start with Chinese settings the following files need to download
 
 ### Run docker-compose
 ```
-docker-compuse up
+docker-compose up
 ```
 Depending on the OS you might need to use sudo
 ```
-sudo docker-compuse up
+sudo docker-compose up
 ```
