@@ -13,7 +13,7 @@ version: '3'
 
 services:
   wikibase:
-    image: wikibase/wikibase:1.33-bundle
+    image: wikibase/wikibase:latest-bundle
     links:
       - mysql
     ports:
